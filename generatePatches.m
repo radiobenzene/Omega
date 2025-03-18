@@ -1,3 +1,9 @@
+% Function to generate patches
+% Input: 
+%   I : Input Image
+%   PATCH_SIZE : patch size
+% Output:
+%   divided patches
 function [patches] = generatePatches(I, PATCH_SIZE)
     % Get image dimensions
     [H, W] = size(I);
